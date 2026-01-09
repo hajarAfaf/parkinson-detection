@@ -99,7 +99,7 @@ def analyze_video(video_path, patient_age=60, result_dir="static/results"):
     # FEATURES
     # ======================
     features = extract_features(signal, fps)
-    tremor_type = ml_model.predict([features])[0]
+    tremor_type = ml_model['model'].predict([features])[0]
 
     severity_score = features[0] * features[4]  # amplitude × fréquence
 
