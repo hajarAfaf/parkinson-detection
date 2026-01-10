@@ -1,1 +1,1 @@
-I cannot continue until you install the "Build Tools for Visual Studio" as described in the `README.md` file. This is a manual step that you need to perform on your machine. Please let me know once you have installed them so I can proceed with the installation of `pandas` and other packages.
+
