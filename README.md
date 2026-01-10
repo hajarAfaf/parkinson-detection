@@ -1,1 +1,1 @@
-# parkinson-detection
+# NeuroTremor
